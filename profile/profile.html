@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<title>Ana Lê Crochê</title>
+<header>
+    <div class="header-top">
+    <img class="logo" src="C:/Users/anale\VScodeArq/AnaLeCroche/imgs/AnaLê Crochê.png">
+
+    <div class="header-icons">
+        <a href="#"><i class="fa-regular fa-user" id="user-icon"></i></a>
+    <a href="#"><i class='fa-solid fa-bag-shopping' id="shopping-bag"></i></a>
+    <a><i class="fa-regular fa-star" id="star-icon" name='star'></i></a>
+    <a><i class="fa-solid fa-bars" id="menu-icon" onclick="toggleMenu()"></i></a>
+    </div>
+    </div>
+    <div id="sidebar" class="sidebar">
+    <a href="#" onclick="toggleMenu()">✖</a>
+    <a href="#">Início</a>
+    <a href="#">Sobre</a>
+    <a href="#">Contato</a>
+<a href="#">Novos</a>
+    <a href="#">Populares</a>
+  <a href="#">Bolsas</a>
+<a href="#">Chapéus</a>
+<a href="#">Roupas</a>
+<a href="#">Mostrar todos</a>
+  </div>
+    <ul class="navlist">
+        <li id="li1"><a href="#">Novos</a> </li>
+        <li id="li2"><a href="#">Populares</a> </li>
+        <li id="li3"><a href="#">Bolsas</a> </li>
+        <li id="li4"><a href="#">Chapéus</a> </li>
+        <li id="li5"><a href="#">Roupas</a> </li>
+        <li id="li6"><a href="#">Mostrar todos</a> </li>
+        </ul>
+    
+</header>
+   <body>
+<div class="container" id="container1">
+  <div class="info-pessoais">
+    <h3>Informações pessoais</h3>
+    <div class="section" id="section1">
+        <label>Nome</label>
+        <input type="text" id="nome">
+        <br>
+        <label>CPF</label>
+        <input type="text" id="cpf" >
+        <br>
+        <label>Endereço</label>
+        <input type="text" id="endereço">
+    </div>
+  </div>
+
+  <div class="cart-bloco">
+    <h3>Carrinho de compras</h3>
+    <div class="section" id="section2">
+        <div class="container" id="cart"></div>
+    </div>
+  </div>
+</div>
+<div class="container" id="container3">
+    <div class="wishlist-bloco">
+        <h3>Wishlist</h3>
+        <div class="section" id="section3">
+        <div class="container" id="wishlist"></div>
+    </div>
+    </div>
+</div>
+   </body>
+
+
+
+    <script></script>
+    <footer>
+        <div class="container" id="container4">
+
+        <div class="contact">
+    <h3>Endereço</h3>
+    <ul class="footer-list" id="ul1">
+    <p>Rua xxxxxxxx, N° 000 Bairro xxxxxxxx - Salvador/BA</p>
+    <p>Atendimentos de Segunda a Sexta
+    09h às 17h (exceto feriados)</p>
+    </ul>
+    </div>
+
+    <div class="contact">
+        <h3>Entre em contato</h3>
+        <ul class="footer-list" id="ul2">
+    <li>SAC:(xx) xxxx-xxxx</li>
+    <li>Email: analecroche@xxxxxx.com</li>
+    </ul>
+    </div>
+    
+ <div class="contact">
+        <h3>Redes sociais</h3>
+        <ul class="footer-list" id="ul3">
+    <li>Instagram</li>
+    <li>Facebook</li>
+    </ul>
+
+ </div>
+
+ <div class="contact">
+        <ul class="footer-list" id="ul4">
+            <li>Política de privacidade</li>
+    <li>Ajuda</li>
+    <li>Entregas e frete</li>
+    </ul>
+ </div>
+        </div>
+        <div class="copyright"><p>© AnaLê Crochê 2024-2025. Todos os direitos reservados.</p></div>
+    </footer>
+</body>
+<script src="https://kit.fontawesome.com/f02d0a8017.js" crossorigin="anonymous"></script>
+<script src="script.js">
+</script>
+<div class="warning"><p>Preços podem mudar durante a navegação</p></div>
