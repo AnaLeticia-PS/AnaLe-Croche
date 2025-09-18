@@ -38,7 +38,7 @@ overflow-x: hidden;
     
 body{
     background-color: var(--bg-color);
-    background-image: url("C:/Users/anale/VScodeArq/AnaLeCroche/imgs/beachbg.png");
+    background-image: url("imgs/beachbg.png");
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -375,3 +375,4 @@ padding-bottom: 0.62rem;
     display: none;
   }
 }
+
